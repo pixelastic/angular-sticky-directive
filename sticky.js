@@ -1,4 +1,4 @@
-angular.module('homeloan-ui').directive('sticky', function() {
+angular.module('app').directive('sticky', function() {
  
   // Define cross-browser method to get pageYOffset
   // https://developer.mozilla.org/en-US/docs/Web/API/Window.scrollY
@@ -26,7 +26,7 @@ angular.module('homeloan-ui').directive('sticky', function() {
  
   return {
     restrict: 'A',
-    link: function(scope, element, attributes) {
+    link: function(scope, element) {
       var isSticked = false;
  
       // Return the top position of the element
