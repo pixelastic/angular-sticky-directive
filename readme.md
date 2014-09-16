@@ -29,8 +29,7 @@ Scroll offset is calculated using the
 
 ## Notes
 
-Scroll offset is calculated using the [cross browser
-method](https://developer.mozilla.org/en-US/docs/Web/API/Window.scrollY), as
+Scroll offset is calculated using the [cross browser method](https://developer.mozilla.org/en-US/docs/Web/API/Window.scrollY), as
 explained in MDN.
 
 The directive listens to the `onscroll` event, but tries to do as little as
